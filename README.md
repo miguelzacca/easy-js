@@ -1,4 +1,4 @@
-# Easy JS
+# Easy JS (em desenvolvimento)
 
 Scripts prontos para uso, simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript.
 
