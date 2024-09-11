@@ -44,14 +44,17 @@ Para informar o endpoint da api faça dessa forma:
 ```html
 <form>
   <input type="hidden" name="_endpoint" value="/usuario" />
+  <button type="submit">Enviar</button>
 </form>
 ```
 
-Para informar parametros faça um input normal porém como o `name="_param"`, vace pode tambem colocar assim: `name="_param1"`:
+Para informar parametros faça um input normal porém como o `name="_param"`, vace pode tambem colocar assim: `name="_param{numero}"`:
 
 ```html
 <form>
   <input type="text" name="_param1" placeholder="Digite seu nome" />
+  <input type="text" name="_param2" placeholder="Digite sua idade" />
+  // resultado: http://localhost:3000/{nome digitado}/{idade digitada}
   <button type="submit">Enviar</button>
 </form>
 ```
