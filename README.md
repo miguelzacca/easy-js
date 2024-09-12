@@ -1,6 +1,7 @@
 # Easy JS (em desenvolvimento)
 
 Scripts e css prontos para uso, simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript e estilização com css.
+- Você só precisara do html no frontend!
 
 ## Easy Form
 
