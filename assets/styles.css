@@ -8,10 +8,15 @@ html {
 }
 
 body {
-  height: 100lvh;
-  display: grid;
-  place-items: center;
+  height: 100vh;
   background-color: #222;
+}
+
+ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 li {
