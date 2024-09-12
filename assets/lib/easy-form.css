@@ -1,0 +1,9 @@
+@import url(https://matcha.mizu.sh/matcha.css);
+
+dialog#result-dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
