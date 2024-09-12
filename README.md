@@ -1,16 +1,18 @@
 # Easy JS (em desenvolvimento)
 
-Scripts e css prontos para uso, simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript e estilização com css.
+Scripts e css prontos para uso, 
+simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript e estilização com css.
 - Você só precisara do html no frontend!
 
 ## CSS (adição automatica)
 
-- O Easy JS usa o matcha css para styles! para mais informações sobre o projeto:
+O Easy JS usa o matcha css para estilização! para mais informações sobre o projeto:
 [https://github.com/lowlighter/matcha](https://github.com/lowlighter/matcha)
 
 ## Easy Form
 
-O Easy Form implementa um javascript para form html automaticamente, facilitando o frontend basico ao executar as requisiçoes dinamicamente.
+O Easy Form implementa um javascript para form html automaticamente, 
+facilitando o frontend basico ao executar as requisiçoes dinamicamente.
 
 ### Como iniciar
 
@@ -75,7 +77,8 @@ Para query tambem, porem tem que ser `name="_query_{nome da query aqui}"`, exemp
 </form>
 ```
 
-Para o resto dos input normais, faca igual faria normalmente, porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja receber o backend, exemplo:
+Para o resto dos input normais, faca igual faria normalmente, 
+porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja receber o backend, exemplo:
 
 ```html
 <form method="post">
