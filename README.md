@@ -3,6 +3,11 @@
 Scripts e css prontos para uso, simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript e estilização com css.
 - Você só precisara do html no frontend!
 
+## CSS (adição automatica)
+
+- O Easy JS usa o matcha css para styles! para mais informações sobre o projeto:
+[https://github.com/lowlighter/matcha](https://github.com/lowlighter/matcha)
+
 ## Easy Form
 
 O Easy Form implementa um javascript para form html automaticamente, facilitando o frontend basico ao executar as requisiçoes dinamicamente.
