@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   height: 100lvh;
   display: grid;
@@ -13,8 +17,26 @@ body {
 li {
   color: #eee;
   font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  transform: translateY(100%);
+  display: block;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 0.5rem;
+  aspect-ratio: 1;
 }
 
 a {
   color: #999;
+  margin-left: 1rem;
 }
