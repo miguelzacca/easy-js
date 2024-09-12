@@ -87,7 +87,7 @@ porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja re
 </form>
 ```
 
-### Exemplo completo
+### Exemplo de form
 
 ```html
 <form method="post">
@@ -96,4 +96,41 @@ porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja re
   <input type="hidden" name="_endpoint" value="/usuario" />
   <button type="submit">Enviar</button>
 </form>
+```
+
+### Exemplo completo
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo</title>
+    <script
+      src="https://easy-js.netlify.app/lib/easy-form.js"
+      data-url="http://localhost:3000"
+    ></script>
+  </head>
+
+  <body>
+    <h2>Criar Cliente</h2>
+    <form method="post">
+      <input type="text" name="nome" placeholder="Nome" required />
+      <input type="number" name="cpf" placeholder="CPF" required />
+      <input type="tel" name="telefone" placeholder="Telefone" required />
+      <input type="hidden" name="_endpoint" value="/cliente/criar" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br />
+
+    <h2>Pesquisar Cliente</h2>
+    <form method="get">
+      <input type="number" name="_query_cpf" placeholder="CPF" />
+      <input type="hidden" name="_endpoint" value="/cliente/procurar" />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
 ```
