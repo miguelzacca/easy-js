@@ -11,6 +11,10 @@ dialog#result-dialog {
 div#error-result {
   display: grid;
   place-items: center;
-  padding-bottom: 1rem;
-  padding-inline: 2rem;
+  padding-bottom: 1.5rem;
+  padding-inline: 3rem;
+}
+
+p#result-text {
+  padding: 1rem;
 }
