@@ -7,3 +7,10 @@ dialog#result-dialog {
   transform: translate(-50%, -50%);
   margin: 0;
 }
+
+div#error-result {
+  display: grid;
+  place-items: center;
+  padding-bottom: 1rem;
+  padding-inline: 2rem;
+}
