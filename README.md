@@ -1,7 +1,8 @@
 # Easy JS
 
-Scripts e css prontos para uso, 
+Scripts e css prontos para uso,
 simplificando o desenvolvimento e removendo a nescessidade de criar manualmente a logica em javascript e estilização com css.
+
 - Você só precisara do html no frontend!
 
 ## CSS (adição automatica)
@@ -11,7 +12,7 @@ O Easy JS usa o matcha css para estilização! para mais informações sobre o p
 
 ## Easy Form
 
-O Easy Form implementa um javascript para form html automaticamente, 
+O Easy Form implementa um javascript para form html automaticamente,
 facilitando o frontend basico ao executar as requisiçoes dinamicamente.
 
 ### Como iniciar
@@ -25,7 +26,10 @@ Simplesmente adicione essa script tag no html:
 Nesse caso, o atributo `data-url` deve conter a url base da api, exemplo:
 
 ```html
-<script src="https://easy-js.netlify.app/lib/easy-form.js" data-url="http://localhost:3000"></script>
+<script
+  src="https://easy-js.netlify.app/lib/easy-form.js"
+  data-url="http://localhost:3000"
+></script>
 ```
 
 ### Como usar os forms
@@ -77,7 +81,7 @@ Para query tambem, porem tem que ser `name="_query_{nome da query aqui}"`, exemp
 </form>
 ```
 
-Para o resto dos input normais, faca igual faria normalmente, 
+Para o resto dos input normais, faca igual faria normalmente,
 porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja receber o backend, exemplo:
 
 ```html
@@ -118,9 +122,10 @@ porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja re
     <form method="post">
       <input type="text" name="nome" placeholder="Nome" required />
       <input type="number" name="cpf" placeholder="CPF" required />
-      <input type="tel" name="telefone" placeholder="Telefone" required />
+      <input type="text" name="telefone" placeholder="Telefone" required />
       <input type="hidden" name="_endpoint" value="/cliente/criar" />
       <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
     </form>
 
     <br />
@@ -130,6 +135,7 @@ porem lembre que o `name=""` tem que ter o nome da variavel que voçê deseja re
       <input type="number" name="_query_cpf" placeholder="CPF" />
       <input type="hidden" name="_endpoint" value="/cliente/procurar" />
       <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
     </form>
   </body>
 </html>
