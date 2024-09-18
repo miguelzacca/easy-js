@@ -1,6 +1,6 @@
 @import url(https://matcha.mizu.sh/matcha.css);
 
-dialog#result-dialog {
+#result-dialog {
   position: fixed;
   left: 50%;
   top: 50%;
@@ -9,13 +9,19 @@ dialog#result-dialog {
   max-width: calc(100lvw - 200px);
 }
 
-div#error-result {
+#error-result {
   display: grid;
   place-items: center;
   padding-bottom: 1.5rem;
   padding-inline: 3rem;
 }
 
-p#result-text {
+#result-text {
   padding: 1rem;
+}
+
+#result-dialog table tbody td {
+  width: max-content;
+  white-space: nowrap;
+  word-wrap: none;
 }
