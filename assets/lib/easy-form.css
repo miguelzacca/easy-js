@@ -6,6 +6,7 @@ dialog#result-dialog {
   top: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
+  max-width: calc(100lvw - 200px);
 }
 
 div#error-result {
