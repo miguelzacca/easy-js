@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && terser lib/*.js --compress --mangle --output lib/easy-form.js"
+    "build": "tsc && terser lib/*.js --compress --mangle --mangle-props --toplevel --output lib/easy-form.js"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,8 @@
+{
+  "compress": true,
+  "mangle": {
+    "toplevel": true,
+    "keep_classnames": false,
+    "keep_fnames": false
+  }
+}
