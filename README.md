@@ -26,10 +26,7 @@ Simplesmente adicione essa script tag no html:
 Nesse caso, o atributo `data-url` deve conter a url base da api, exemplo:
 
 ```html
-<script
-  src="https://easy-js.netlify.app/lib/easy-form.js"
-  data-url="http://localhost:3000"
-></script>
+<script src="https://easy-js.netlify.app/lib/easy-form.js" data-url="http://localhost:3000"></script>
 ```
 
 ### Como usar os forms
